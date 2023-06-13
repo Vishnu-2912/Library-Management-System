@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"content="width=device-width,initial-scale=1.0">
+	<title>Profile</title>
+	<link rel="stylesheet"href="profile.css">
+</head>
+<body>
+  
+  <div class="wrapper">
+    <div class="profile">
+      <div class="content">
+        <h1>Edit Profile</h1>
+        <form action="">
+          <!-- Photo -->
+          <fieldset>
+            <div class="grid-35">
+              <label for="avatar">Your Photo</label>
+            </div>
+            <div class="grid-65">
+              <span class="photo" title="Upload your Avatar!"></span>
+              <input type="file" class="btn" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="grid-35">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="grid-65">
+              <input type="text" id="fname" tabindex="1" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="grid-35">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="grid-65">
+              <input type="text" id="lname" tabindex="2" />
+            </div>
+          </fieldset>
+         
+          <!-- Location -->
+          <fieldset>
+            <div class="grid-35">
+              <label for="location">Location</label>
+            </div>
+            <div class="grid-65">
+              <input type="text" id="location" tabindex="4" />
+            </div>
+          </fieldset>
+          <!-- Country -->
+          <fieldset>
+            <div class="grid-35">
+              <label for="country">Country</label>
+            </div>
+            <div class="grid-65">
+              <input type="text" id="country" tabindex="5" />
+            </div>
+          </fieldset>
+          <!-- Email -->
+          <fieldset>
+            <div class="grid-35">
+              <label for="email">Email Address</label>
+            </div>
+            <div class="grid-65">
+              <input type="email" id="email" tabindex="6" />
+            </div>
+          </fieldset>
+         </div>
+          </fieldset>
+          <!-- Highest Qualification -->
+          <fieldset>
+            <div class="grid-35">
+              <label for="qualification">Department</label>
+            </div>
+            <div class="grid-65">
+              <select name="Dept" id="Dept" tabindex="8">
+                <option selected="selected" value="--------------" disabled>SELECT</option>
+                <option value="IT">IT</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="MECH">MECH</option>
+                <option value="EEE">EEE</option>
+              </select>
+            </div>
+          </fieldset>
+          <button class="clkbtn">Submit
+           
+  
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+  
+   <!-- http://www.smashingmagazine.com/2013/08/08/release-livestyle-css-live-reload/ -->
